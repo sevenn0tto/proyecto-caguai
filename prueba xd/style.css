@@ -1,5 +1,5 @@
 body{
-    font-family: Century Gothic;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: #f2f2f2;
     font-size: 15px;
@@ -106,7 +106,7 @@ h2{
     transform: scale(1.08);
 }
 .opcionA:active{
-    background-color: #be9da0;
+    background-color: #84474c;
     transform: translateY(2px);
 }
 
@@ -123,7 +123,7 @@ h2{
     transform: scale(1.08);
 }
 .opcionB:active{
-    background-color: #9cc69e;
+    background-color: #5d7e5f;
     transform: translateY(2px);
 }
 
