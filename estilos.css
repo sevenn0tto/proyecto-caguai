@@ -1,0 +1,63 @@
+body{
+    font-family: century gothic;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-style: oblique;
+    text-align: center;
+}
+button{
+    background-color: rgb(249, 249, 250);
+    color: rgb(229, 230, 235);
+    border: none;
+    padding: 10px;
+    border-radius: 5px; 
+}
+button:hover{
+
+    background-color: rgb(201, 14, 64);
+    color: rgb(52, 88, 119);
+
+}
+h1{
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(35, 42, 113);
+    font-family: century gothic;
+}
+#finalButton{
+    display: none;
+}
+.answered{
+    border-left: 4px solid #978cb2;
+    padding: 10px;
+    border-radius: 8px;
+}
+#auwu{
+    background-color: rgb(215, 137, 177);
+}
+#buwu{
+    background-color: rgb(143, 142, 187);
+    color: rgb(57, 69, 58);
+}
+footer{
+    padding: 10px;
+    background-color: #978cb2;
+    border: 90px;
+    height: 100%;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 10px;
+}
+li{
+    list-style-type: none;
+}
+article{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
