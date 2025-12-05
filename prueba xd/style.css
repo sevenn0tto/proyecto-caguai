@@ -1,0 +1,127 @@
+body{
+    font-family: Century Gothic;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color: #2C2C2C;
+}
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    color: #2C2C2C;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 5 / span 5;
+    grid-row: auto;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    margin: auto;
+    margin: 20px;
+    height: 200px;
+}
+#titulo2{
+    text-align: center;
+}
+
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.div4{
+    grid-column: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+.div6 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    
+}
+
+.div7 {
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+#auwu{
+    background-color:#F7D6D9;
+    color: rgb(173, 70, 74);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+#auwu:hover{    transform: scale(0.6s);
+    transform: scale(1.08);
+}
+
+#buwu{
+    background-color: #C6F1C8;
+    color: rgb(99, 173, 70);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+#buwu:hover{   
+    transform: scale(1.08);
+}
+
+
+
